@@ -1,7 +1,11 @@
+import java.util.Arrays;
+import java.util.Collection;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.runners.Parameterized.Parameters;
 
 public class MinTest {
 
@@ -45,5 +49,6 @@ public class MinTest {
 			tester.array[i]=(-i)*10000;
 		Assert.assertEquals(tester.min_zav(),10000*(-9));
 	}
+
 	
 }
