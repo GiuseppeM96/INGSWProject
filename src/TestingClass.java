@@ -8,23 +8,19 @@ public class TestingClass {
 	
 	public int min() {
 		int min=array[0];
-		int occ=1;
 		int sumOcc=0;
 		
 		for(int i=0;i<array.length;i++) {
 			if(array[i]<min) {
 				min=array[i];
 				sumOcc=min;
-				occ=1;
-			}
-			else if(array[i]==min) {
+			}else if(array[i]==min) {
 				sumOcc+=min;
-				occ++;
 			}
 		}
 		
-		if(occ>1) {
-			return sumOcc/occ;
+		if(sumOcc!=min) {
+			return sumOcc;
 		}
 		return min;
 	}
