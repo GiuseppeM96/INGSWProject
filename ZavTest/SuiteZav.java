@@ -3,8 +3,8 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({MaxTest.class,MinTest.class})
+@SuiteClasses({MinTest.class,MaxTest.class})
 
 public class SuiteZav {
-
+	
 }

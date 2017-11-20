@@ -27,7 +27,6 @@ public class Prova {
 	@Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {     
-                 
         	{ 0, 0 }, { 1, 1 }, { 2, 2 }, { 3, 3 }, { 4, 4 }, { 5, 5 }, { 6, 6 }  
            });
     }
@@ -36,5 +35,12 @@ public class Prova {
     public void check_all() {
     	Assert.assertTrue(check());
     }
+    
+//    // calcoatice assert
+//    @Test(expected = ArithmeticException.class)
+//	public void divisionTest() {
+//		if (calculator.division(10, 2) == 6)
+//			throw new ArithmeticException();
+//	}
     
 }
