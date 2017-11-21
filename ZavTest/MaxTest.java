@@ -21,6 +21,7 @@ public class MaxTest {
 
 	@Test
 	public void test_max() {
+		
 		System.out.println("testo il max");
 
 		for (int i = 0; i < 10; i++) {
