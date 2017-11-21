@@ -45,7 +45,6 @@ public class MaxTest {
 	@Test(expected = IndexOutOfBoundsException.class)
 	public void add_no_space() {
 		System.out.println("testo l'aggiunta non consentita");
-
 		tester.array[10] = 1;
 	}
 
